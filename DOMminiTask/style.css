@@ -1,0 +1,97 @@
+
+#text{
+    position: relative;
+}
+h3{
+    font-family: "Lexend", sans-serif;
+    font-weight:bolder;
+    
+}
+
+.name-box{
+    display: flex;
+    gap: 3rem;
+}
+
+.name{
+    font-family: "Instrument Serif", serif;
+}
+
+span{
+    color: red;
+}
+
+.checked{
+    color: orange;
+}
+
+.exp{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.star input{
+    display: none;
+}
+
+.star label{
+    font-size: 30px;
+    color: #444;
+    padding: 10px;
+    float: right;
+}
+
+.star input:not(:checked) ~label:hover,
+.star input:not(:checked) ~label:hover~label{
+    color: #fd4;
+}
+
+.star input:checked ~label{
+    color: #fd4;
+}
+
+
+#formip{
+    position: relative;
+}
+
+table{
+    width: 100vh;
+}
+
+.table-container{
+    display: flex;
+    font-size: medium;
+}
+
+.table-container th{
+    text-align: justify;
+    font-family:"Instrument Serif", serif;
+    font-weight: light;
+}
+
+.table-container thead th{
+    text-align: center;
+}
+
+.form-table td,th{
+    padding: 15px;
+    text-align: center;
+}
+
+.form-table thead tr:nth-child(1)
+{
+    background-color: #ffffff;
+}
+
+.form-table tr:nth-child(odd)
+{
+    background-color: lightgray;
+}
+
+button{
+    font-family: "Instrument Serif", serif;
+}
+
+  
